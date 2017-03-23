@@ -109,3 +109,9 @@ s,i,em {
 .hide {
     display: none;
 }
+.spec {
+    clear: both;
+}
+.clearfloat {
+    overflow: hidden;
+}

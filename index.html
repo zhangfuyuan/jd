@@ -7,8 +7,12 @@
     <link rel="stylesheet" href="css/base.css" type="text/css" />
     <link rel="stylesheet" href="css/index.css" type="text/css" />
 
+    <!--标题栏logo-->
+    <link rel="shortcut icon" href="favicon.ico" />
+
 </head>
 <body>
+
     <!--顶部导航条-->
     <div class="topbar">
         <div class="clearfloat w">
@@ -62,32 +66,501 @@
 
     <!--顶部广告-->
     <div class="topbanner">
-        <img src="img/topbanner.jpg" alt="topbanner" />
+        <div class="top_adv w">
+            <img src="img/topbanner.jpg" alt="topadv" />
+            <a href="#"><em></em></a>
+        </div>
     </div>
 
+    <div style="position: relative">
     <!--菜单栏-->
-    <div class="banner">
+    <div class="banner" style="position: relative;z-index: 0;">
         <div class="w">
-            <!--logo-->
-            <div class="ban_le fl">
-                <img src="img/logo.png" alt="logo" />
-            </div>
+            <!--导航栏上半部分-->
+            <div class="ban_ce">
+                <!--logo-->
+                <div class="ban_le fl">
+                    <img src="img/logo.png" alt="logo" />
+                </div>
 
-            <div class="ban_ce fl">
                 <!--动图-->
-                <img src="img/dong.gif" alt="logo" class="fl"/>
+                <img src="img/dong.gif" alt="logo" class="dong_gif fl"/>
+
                 <!--搜索框-->
-                <div class="ban_ce_sousuo fl">
-                    <form>
-                        <input type="textarea" placeholder="图书搜索" class="ban_ce_kuang fl" />
-                        <input type="submit" value="搜索" class="ban_ce_anniu fr" />
-                    </form>
+                <div class="ban_ce_sousuo fl ">
+                    <div>
+                        <form>
+                            <input type="textarea" placeholder=" 图书搜索" class="ban_ce_kuang fl" />
+                            <a href="#" class="ac sousuo_a">搜索</a>
+                        </form>
+                    </div>
+
+                    <div class="lit_titl">
+                        <ul class="fl">
+                            <li>
+                                <a href="#" style="color: red;" >11月11日</a>
+                            </li>
+                            <li>
+                                <a href="#">11.11秒杀</a>
+                            </li>
+                            <li>
+                                <a href="#">买2免1</a>
+                            </li>
+                            <li>
+                                <a href="#">Note5 黑</a>
+                            </li>
+                            <li>
+                                <a href="#">12期免息</a>
+                            </li>
+                            <li>
+                                <a href="#">智能科技</a>
+                            </li>
+                            <li>
+                                <a href="#">清仓</a>
+                            </li>
+                            <li>
+                                <a href="#">国际服饰</a>
+                            </li>
+                            <li>
+                                <a href="#">优惠券</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--购物车-->
+                <div class="shopcar fl ac">
+                    <em class="pho_car"></em>
+                    <span><a href="#">我的购物车</a></span>
+                    <em class="pho_num"></em>
+                    <i><s>◇</s></i>
                 </div>
             </div>
 
-            <div class="ban_ri fr">
+            <!--导航栏下半部分-->
+            <div class="banner_xia spec">
+                <!--菜单-->
+                <div class="memu fl ">
+                    <ul>
+                        <li>
+                            <a href="#">服装城</a>
+                        </li>
+                        <li>
+                            <a href="#">美妆馆</a>
+                        </li>
+                        <li>
+                            <a href="#">超市</a>
+                        </li>
+                        <li>
+                            <a href="#">全球购</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                闪购
+                                <img src="img/new.jpg" alt="xin" class="shan_xin"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">团购</a>
+                        </li>
+                        <li>
+                            <a href="#">拍卖</a>
+                        </li>
+                        <li>
+                            <a href="#">金融</a>
+                        </li>
+                        <li>
+                            <a href="#">智能</a>
+                        </li>
+                    </ul>
+                </div>
 
+                <!--小广告-->
+                <a href="#"><img src="img/bike.jpg" alt="" class="pho_adv fr"/></a>
             </div>
+        </div>
+    </div>
+
+    <!--正文-->
+    <div class="content" >
+        <!--正文上半部分-->
+        <div class="con_top w">
+            <!--商品分类-->
+            <div class="con_top_left fl">
+                <ul>
+                    <li style="background-color: #b1191a;line-height: 45px;color:white;font-size: 16px;padding-left: 5px;">全部商品分类</li>
+                    <li>
+                        <a href="#">
+                            <span>家用电器</span>
+                            <i><s>◇</s></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>手机、数码、京东通信</span>
+                            <i><s>◇</s></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>手机、数码、京东通信</span>
+                            <i><s>◇</s></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>家用电器</span>
+                            <i><s>◇</s></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>手机、数码、京东通信</span>
+                            <i><s>◇</s></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>家用电器</span>
+                            <i><s>◇</s></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>手机、数码、京东通信</span>
+                            <i><s>◇</s></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>家用电器</span>
+                            <i><s>◇</s></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>手机、数码、京东通信</span>
+                            <i><s>◇</s></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>家用电器</span>
+                            <i><s>◇</s></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>手机、数码、京东通信</span>
+                            <i><s>◇</s></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>手机、数码、京东通信</span>
+                            <i><s>◇</s></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" style="line-height: 33px;">
+                            <span>手机、数码、京东通信</span>
+                            <i><s>◇</s></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--轮播图-->
+            <div class="con_top_center fl">
+                <a href="#"><img src="img/slider1.jpg" class="advphoto" /></a>
+            </div>
+
+            <!--京东快报-->
+            <div class="con_top_right fl">
+                <div class="kuaibao">
+                    <h3>京东快报</h3>
+                    <a href="#"><span>更多&nbsp;<i><s>◇</s></i></span></a>
+                </div>
+
+                <ul>
+                    <li>
+                        <a href="#"> <strong>[公告]</strong> 母婴类APP【京东宝宝】上线</a>
+                    </li>
+                    <li>
+                        <a href="#"> <strong>[特惠]</strong> 美的品牌日 APP嗨购大放“价”</a>
+                    </li>
+                    <li>
+                        <a href="#"> <strong>[公告]</strong> 京东深入蒙牛生产基地进行质检</a>
+                    </li>
+                    <li>
+                        <a href="#"> <strong>[特惠]</strong> 白条购家电 24期免息！</a>
+                    </li>
+                </ul>
+
+                <div class="fuwu">
+                    <h3>生活服务</h3>
+                </div>
+
+                <table border="0" width="100%" class="huafei ac">
+                    <!--第一行-->
+                    <tr>
+                        <td class="td1">
+                            <em></em><br>
+                            话费
+                        </td>
+                        <td class="td1">
+                            <em style="background:url(img/icon_lifeserv.png) -26px -26px;height: 25px;"></em><br>
+                            话费
+                        </td>
+                        <td class="td1">
+                            <em></em><br>
+                            话费
+                        </td>
+                        <td style="border-right: none;" class="td1">
+                            <em></em><br>
+                            话费
+                            <img src="img/song.png" class="song"/>
+                        </td>
+                    </tr>
+                    <!--第二行-->
+                    <tr>
+                        <td class="td2">
+                            <em></em>
+                        </td>
+                        <td class="td2">
+                            <em></em>
+                        </td>
+                        <td class="td2">
+                            <em></em>
+                        </td>
+                        <td class="td2" style="border-right: none;">
+                            <em></em>
+                        </td>
+                    </tr>
+                    <!--第三行-->
+                    <tr>
+                        <td class="td3">
+                            <em></em><br>
+                            话费
+                        </td>
+                        <td class="td3">
+                            <em></em><br>
+                            话费
+                        </td>
+                        <td class="td3">
+                            <em></em><br>
+                            话费
+                        </td>
+                        <td class="td3" style="border-right: none;">
+                            <em></em><br>
+                            话费
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!--正文下半部分-->
+        <div class="con_bot w spec" style="cursor: pointer;">
+            <!--京喜夜-->
+            <div class="con_bot_p1 fl">
+              <img src="img/night.jpg" />
+            </div>
+
+            <!--1元秒杀-->
+            <div class="con_bot_p2 fl">
+                <img src="img/1.jpg" />
+            </div>
+
+            <!--爱不释手-->
+            <div class="con_bot_p3 fl">
+                <img src="img/2.jpg" />
+            </div>
+
+            <!--爆品-->
+            <div class="con_bot_p4 fl">
+                <img src="img/3.jpg" />
+            </div>
+
+            <!--低至5折-->
+            <div class="con_bot_p5 fl">
+                <img src="img/4.jpg" />
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!--多快好省-->
+    <div class="slogen">
+        <div class="w">
+            <img src="img/slogen1.png" style="margin-left: 0" />
+            <img src="img/slogen2.png" />
+            <img src="img/slogen3.png" />
+            <img src="img/slogen4.png" />
+        </div>
+    </div>
+
+    <!--购物指南-->
+    <div class="guide w">
+        <div style="width: 1000px">
+        <!--指南1-->
+        <div class="gui1 fl">
+            <h3>购物指南</h3>
+            <ul>
+                <li>
+                    <a href="#">购物流程</a>
+                </li>
+                <li>
+                    <a href="#">会员介绍</a>
+                </li>
+                <li>
+                    <a href="#">生活旅行/团购</a>
+                </li>
+                <li>
+                    <a href="#">常见问题</a>
+                </li>
+                <li>
+                    <a href="#">大家电</a>
+                </li>
+                <li>
+                    <a href="#">联系客服</a>
+                </li>
+            </ul>
+        </div>
+
+        <!--指南2-->
+        <div class="gui1 fl">
+            <h3>购物指南</h3>
+            <ul>
+                <li>
+                    <a href="#">购物流程</a>
+                </li>
+                <li>
+                    <a href="#">会员介绍</a>
+                </li>
+                <li>
+                    <a href="#">生活旅行/团购</a>
+                </li>
+                <li>
+                    <a href="#">常见问题</a>
+                </li>
+                <li>
+                    <a href="#">大家电</a>
+                </li>
+                <li>
+                    <a href="#">联系客服</a>
+                </li>
+            </ul>
+        </div>
+
+        <!--指南3-->
+        <div class="gui1 fl">
+            <h3>购物指南</h3>
+            <ul>
+                <li>
+                    <a href="#">购物流程</a>
+                </li>
+                <li>
+                    <a href="#">会员介绍</a>
+                </li>
+                <li>
+                    <a href="#">生活旅行/团购</a>
+                </li>
+                <li>
+                    <a href="#">常见问题</a>
+                </li>
+                <li>
+                    <a href="#">大家电</a>
+                </li>
+                <li>
+                    <a href="#">联系客服</a>
+                </li>
+            </ul>
+        </div>
+
+        <!--指南4-->
+        <div class="gui1 fl">
+            <h3>购物指南</h3>
+            <ul>
+                <li>
+                    <a href="#">购物流程</a>
+                </li>
+                <li>
+                    <a href="#">会员介绍</a>
+                </li>
+                <li>
+                    <a href="#">生活旅行/团购</a>
+                </li>
+                <li>
+                    <a href="#">常见问题</a>
+                </li>
+                <li>
+                    <a href="#">大家电</a>
+                </li>
+                <li>
+                    <a href="#">联系客服</a>
+                </li>
+            </ul>
+        </div>
+
+        <!--指南5-->
+        <div class="gui1 fl">
+            <h3>购物指南</h3>
+            <ul>
+                <li>
+                    <a href="#">购物流程</a>
+                </li>
+                <li>
+                    <a href="#">会员介绍</a>
+                </li>
+                <li>
+                    <a href="#">生活旅行/团购</a>
+                </li>
+                <li>
+                    <a href="#">常见问题</a>
+                </li>
+                <li>
+                    <a href="#">大家电</a>
+                </li>
+                <li>
+                    <a href="#">联系客服</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+
+        <!--覆盖区县-->
+        <div class="gui2 fr" style="width: 200px;">
+            <h3>京东自营覆盖区县</h3>
+            <p>京东已向全国2357个区县提供自营配送服务，支持货到付款、POS机刷卡和售后上门服务。</p>
+            <span><a href="#">查看详情 ></a></span>
+        </div>
+    </div>
+
+    <!--页脚-->
+    <div class="footer w ac ">
+        <!--底部链接-->
+        <div class="foo_p1 spec">
+            <p>
+                <a href="#">关于我们</a> | <a href="#">联系我们</a> | <a href="#">商家入驻</a> | <a href="#">营销中心</a> | <a href="#">手机京东</a> | <a href="#">友情链接</a> | <a href="#">销售联盟</a> | <a href="#">京东社区</a> | <a href="#">京东公益</a> | <a href="#">English Site</a> | <a href="#">Contact Us</a>
+            </p>
+        </div>
+
+        <!--四段版权信息-->
+        <div class="copy spec">
+            <p>北京公安局朝阳分 局备案编号110105014669|京ICP证070359号|互联网药品信息服务资格证编号（京）-经营性-2014-0008|新出发京零 字第大120007号</p>
+            <p>音像制品经营许可证苏宿批005号|出版物经营许可证编号新出发（苏）批字第N-012号|互联网出版许可证编号新出网证（京）字150号</p>
+            <p>网络文化经营许可证京网文[2014]2148-348号 违法和不良信息举报电话：4006561155 Copyright &copy; 2004-2015 京东JD.com 版权所有</p>
+            <p>京东旗下网站： 360TOP 拍拍网 网银在线</p>
+        </div>
+
+        <!--信用图片-->
+        <div class="good_pho">
+            <img src="img/mess.png" alt="" />
+            <img src="img/mess2.png" alt="" />
+            <img src="img/mess3.png" alt="" />
+            <img src="img/mess4.png" alt="" />
+            <img src="img/mess5.png" alt="" />
         </div>
     </div>
 
